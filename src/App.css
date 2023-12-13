@@ -1,0 +1,137 @@
+#root {
+  max-width: 1280px;
+  text-align: center;
+  padding: 0; /* Ekledik */
+}
+
+.bg {
+  background-image: url('/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Popup */
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.box {
+  width: 400px;
+  height: 450px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.popup__title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.popup__content {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Popup close left  */
+
+.popup__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #747bff;
+}
+
+.popup__close2 {
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  right: 10px;
+  background-color: orange;
+}
+
+.btn_click {
+  position: absolute;
+  right: 10px;
+  background-color: orange;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn_click:hover {
+  background-color: #ff8c00;
+}
+
+
+.btn_click_change {
+  background-color: orange;
+  color: white;
+  width: 25%;
+  font-weight: normal;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.texts {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #52118e;
+}
+
+.texts h4{
+  font-family: "Gowun Dodum",sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.popup__text{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Gowun Dodum",sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+   color:black;
+}
+
+
+
+
